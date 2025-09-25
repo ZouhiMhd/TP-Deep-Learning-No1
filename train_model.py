@@ -54,6 +54,7 @@ validation_split=0.1
 # valuation du mod le
 test_loss, test_acc = model.evaluate(x_test, y_test)
 print(f"Pr cision sur les donn es de test: {test_acc:.4f}")
+
  
 #Sauvegarde du mod le
 model.save("mnist_model.h5")

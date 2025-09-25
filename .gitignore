@@ -1,0 +1,53 @@
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Virtualenv / Conda
+venv/
+env/
+mlenv/
+.venv/
+.conda/
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+
+# Mac
+.DS_Store
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Data & models (NE PAS committer les données et modèles binaires)
+data/
+datasets/
+*.h5
+*.ckpt
+models/
+checkpoints/
+artifacts/
+
+# MLflow
+mlruns/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Secrets / config
+.env
+secrets.*
