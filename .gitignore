@@ -51,3 +51,8 @@ mlruns/
 # Secrets / config
 .env
 secrets.*
+
+#Test functions
+test_img.py
+test_model.py
+mon_chiffre.png
